@@ -183,3 +183,32 @@ Handles upload, storage and early-stage analysis pipeline for reports.
      - book appointment OR
      - go to emergency
 7. User can book, store records and continue follow-up conversations
+✨ Key Features
+
+Natural language virtual health assistant
+
+Symptom triage and guidance
+
+Report upload & basic analysis workflow
+
+Mapping of nearby hospitals, pharmacies and health facilities
+
+Medical vault for documents
+
+Appointment booking and user management
+
+Clean, responsive UI suitable for web deployment
+
+🛠 Tech Stack
+
+Frontend: Next.js (Pages Router), React
+
+UI: Tailwind CSS, custom components (src/components/ui)
+
+Backend: Next.js API routes (Node.js)
+
+Database: MongoDB (via models in src/models)
+
+Media Storage: Cloudinary integration (src/lib/cloudinary.js)
+
+Other utilities: Custom helpers in src/lib/utils.js
