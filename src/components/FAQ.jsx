@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { ChevronDown } from 'lucide-react';
-
+//here is the FAQ directory
 const faqs = [
   {
     question: "How do I book an online consultation?",

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Heart, Menu, PhoneCall, X } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/router";
-
+//here is the header.jsx
 const Header = () => {
   const [showEmergency, setShowEmergency] = useState(false);
   const [showMobileMenu, setShowMobileMenu] = useState(false);
