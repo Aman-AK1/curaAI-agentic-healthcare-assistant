@@ -298,6 +298,20 @@ curaai-agentic-healthcare-assistant/
 ├─ package.json
 ├─ next.config.mjs
 ```
+## 📸 Demo Screenshots
+
+### 🏠 Home Page
+![Home](docs/screenshots/home page.jpg)
+
+### 🤖 Chatbot (Symptom Analysis)
+![Chatbot](docs/screenshots/Chatbot UI.jpg)
+
+### 📂 Medical Vault
+![Vault](docs/screenshots/Vault.jpg)
+
+### 🏥 Govt Schemes
+![Govt Schemes](docs/screenshots/Govt Schemes.jpg)
+
 ## 🚀 Getting Started (Development)
 # Install dependencies
 npm install
