@@ -312,6 +312,12 @@ curaai-agentic-healthcare-assistant/
 ### 🏥 Govt Schemes
 ![Govt Schemes](docs/screenshots/Govt Schemes.jpg)
 
+### 📅 Appointments
+![Appointments](docs/screenshots/Appointments.jpg)
+
+### 🌐 Multilingual Support
+![Multilingual](docs/screenshots/Multilingual.jpg)
+
 ## 🚀 Getting Started (Development)
 # Install dependencies
 npm install
