@@ -301,16 +301,16 @@ curaai-agentic-healthcare-assistant/
 ## 📸 Demo Screenshots
 
 ### 🏠 Home Page
-![Home](docs/screenshots/home page.jpg)
+![Home](docs/screenshots/home_page.jpg)
 
 ### 🤖 Chatbot (Symptom Analysis)
-![Chatbot](docs/screenshots/Chatbot UI.jpg)
+![Chatbot](docs/screenshots/Chatbot_UI.jpg)
 
 ### 📂 Medical Vault
 ![Vault](docs/screenshots/Vault.jpg)
 
 ### 🏥 Govt Schemes
-![Govt Schemes](docs/screenshots/Govt Schemes.jpg)
+![Govt Schemes](docs/screenshots/Govt_Schemes.jpg)
 
 ### 📅 Appointments
 ![Appointments](docs/screenshots/Appointments.jpg)
