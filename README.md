@@ -183,7 +183,9 @@ Handles upload, storage and early-stage analysis pipeline for reports.
      - book appointment OR
      - go to emergency
 7. User can book, store records and continue follow-up conversations
-✨ Key Features
+```
+
+## ✨ Key Features
 
 Natural language virtual health assistant
 
@@ -199,7 +201,7 @@ Appointment booking and user management
 
 Clean, responsive UI suitable for web deployment
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 
 Frontend: Next.js (Pages Router), React
 
@@ -212,3 +214,87 @@ Database: MongoDB (via models in src/models)
 Media Storage: Cloudinary integration (src/lib/cloudinary.js)
 
 Other utilities: Custom helpers in src/lib/utils.js
+
+## 📁 Repository Structure
+
+```text
+curaai-agentic-healthcare-assistant/
+├─ docs/                         # Architecture diagrams, documentation
+│  └─ ARCHITECTURE.md
+│
+├─ prompts/                      # LLM / agent prompts (conceptual)
+│  └─ symptom-agent-prompt.md
+│
+├─ public/                       # Public assets
+│
+├─ src/
+│  ├─ components/
+│  │  ├─ ui/
+│  │  │  ├─ accordion.jsx
+│  │  │  ├─ button.jsx
+│  │  │  └─ card.jsx
+│  │  ├─ Appointment.jsx
+│  │  ├─ FAQ.jsx
+│  │  ├─ Footer.jsx
+│  │  ├─ Header.jsx
+│  │  ├─ HealthArticles.jsx
+│  │  ├─ Healthfacility.jsx
+│  │  ├─ Hero.jsx
+│  │  ├─ MedStore.jsx
+│  │  ├─ ReportAnalysisApp.jsx
+│  │  ├─ SecurityBanner.jsx
+│  │  ├─ Services.jsx
+│  │  └─ Videoconsult.jsx
+│  │
+│  ├─ lib/
+│  │  ├─ cloudinary.js
+│  │  ├─ mongodb.js
+│  │  └─ utils.js
+│  │
+│  ├─ models/
+│  │  ├─ Booking.js
+│  │  ├─ Chat.js
+│  │  ├─ Document.js
+│  │  └─ User.js
+│  │
+│  ├─ pages/
+│  │  ├─ api/
+│  │  │  ├─ book-appointment.js
+│  │  │  ├─ botreply.js
+│  │  │  ├─ chats.js
+│  │  │  ├─ check-auth.js
+│  │  │  ├─ document.js
+│  │  │  ├─ get-chathistory.js
+│  │  │  ├─ get-messages.js
+│  │  │  ├─ hello.js
+│  │  │  ├─ login.js
+│  │  │  ├─ messages.js
+│  │  │  ├─ register.js
+│  │  │  ├─ send-message.js
+│  │  │  └─ upload.js
+│  │  │
+│  │  ├─ appoint.jsx
+│  │  ├─ chatbot.js
+│  │  ├─ donation.jsx
+│  │  ├─ home.jsx
+│  │  ├─ index.js
+│  │  ├─ login.js
+│  │  ├─ mapfacility.jsx
+│  │  ├─ medicalVault.js
+│  │  ├─ pharmacy.js
+│  │  ├─ register.js
+│  │  ├─ reportanalyse.jsx
+│  │  ├─ schemes.jsx
+│  │  ├─ userappoint.jsx
+│  │  ├─ video.jsx
+│  │  ├─ virtualAssistantCard.js
+│  │  ├─ _app.js
+│  │  └─ _document.js
+│  │
+│  └─ styles/
+│     └─ globals.css
+│
+├─ README.md
+├─ package.json
+├─ next.config.mjs
+```
