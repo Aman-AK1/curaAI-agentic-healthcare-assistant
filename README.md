@@ -298,3 +298,33 @@ curaai-agentic-healthcare-assistant/
 ├─ package.json
 ├─ next.config.mjs
 ```
+## 🚀 Getting Started (Development)
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
+
+The app will be available at:
+👉 http://localhost:3000
+
+## 🔮 Future Enhancements
+
+Stronger triage models and explainable AI for risk scoring
+Offline / low-connectivity mode for rural areas
+Integration with wearables (heart rate, SpO₂, BP)
+Doctor dashboard for second-level review
+Multi-language support for Indian regional languages
+Integration with telemedicine platforms and government health schemes
+
+## 🏥 Impact
+
+By combining Agentic AI with a practical healthcare workflow, CuraAI aims to:
+Reduce unnecessary hospital visits
+Encourage earlier decision-making for serious cases
+Improve accessibility for patients in remote areas
+Support doctors by filtering basic queries
+
+
+
